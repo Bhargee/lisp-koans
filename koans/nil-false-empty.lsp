@@ -52,4 +52,4 @@
    (true-or-false? t  (or nil nil nil t nil))
    "or returns the first non nil value, or nil if there are none."
    (assert-equal nil (or nil nil nil))
-   (assert-equal 5 (or 1 2 3 4 5)))
+   (assert-equal 1 (or 1 2 3 4 5)))
